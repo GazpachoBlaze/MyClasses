@@ -58,11 +58,11 @@ const inputTheYear = '1994';
 console.log(Number(inputTheYear) + inputTheYear);
 console.log(Number(inputTheYear) + 27);
 console.log(String(17), 17);
-console.log(` "I am" + 24 + "years old"`);
+document.write(` "I am" + 24 + "years old"`);
 console.log("23" * "4");
 
 //boolean//
-console.log((boolean)0);
+document.write(boolean);
 
 
 
