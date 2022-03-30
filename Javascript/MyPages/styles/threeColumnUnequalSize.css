@@ -32,11 +32,41 @@ body {
     color: black;
   }
   /* Create three equal columns that float next to each other */
-.column {
+  .column {
+    width: 25%;
     float: left;
-    width: 33.33%;
   }
   
+  /* Left and right column */
+  .column.middle {
+    width: 50%;
+    
+  }
+  
+  /* Middle column */
+  .column.side {
+    width: 25%;
+    
+  }
+
+
+  .column1 {
+    width: 40%;
+    float: left;
+    
+  }
+  .column1.middle {
+    width: 20%;
+    
+  }
+
+  .column1.side {
+    width: 40%;
+    
+  }
+
+
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
